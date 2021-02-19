@@ -1,0 +1,22 @@
+
+<div style="width:74%;position:fixed;bottom:0;left:1%">
+<div class="">
+  <h2>Mock Congress of Vienna.</h2>
+</div>
+
+<div id="messages" role="log" aria-live="polite"></div>
+<input id="chat-input" type="text"></input>
+</div>
+
+
+<div style="width:25%;position:fixed;top:0;right:0">
+<div id="gameNot">
+  <h4>You are not in a game.  When 6 players join the lobby, you will be placed in a game and information will show up here.</h4>
+</div>
+<div id="gameInfo" style="display:none">
+  <h2>Game Information</h2>
+  <h2><span id="timeLeft"></span></h2>
+  <h3 id="countrycontain">Country: </h3>
+  <h4 id="teammates">Team members: Austria, Russia, France</h4>
+  <h4 id="deadcountries">Dead Countries: </h4>
+</div>
